@@ -7,13 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MenuVC.h"
 
-@class ViewController;
+@class MenuVC;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) ViewController *viewController;
+@property (strong, nonatomic) UINavigationController *naviC;
+@property (strong, nonatomic) MenuVC *menuVC;
 
 @end

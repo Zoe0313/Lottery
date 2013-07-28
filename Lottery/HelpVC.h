@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HelpVC.h
 //  Lottery
 //
 //  Created by 刘 晓霞 on 13-7-24.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface HelpVC : UIViewController
 
 @end
